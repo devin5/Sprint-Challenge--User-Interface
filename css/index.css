@@ -69,6 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    margin-top:30px;
 }
 
 .top-content {
@@ -81,13 +82,13 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding: 0 1%; 
     padding-bottom: 20px;  
 }
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-bottom: 1px dashed black; 
 }
 
 .middle-content h2 {
@@ -104,7 +105,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: black;   
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +144,174 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:20px 0px;
+}
+header nav a {
+    margin-right:30px;
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+    padding-left:20px
+   
+}
+.logo{
+    margin-bottom:20px;
+    /* margin-left:20px; */
+}
+.lights{
+    /* margin-left:115px; */
+    margin-bottom: 30px;
+   
+}
+.skyscraper{
+    /*margin-left:120px; */
+}
+.about-page{
+    /* margin-left:120px; */
+    /*margin-right:80px; */
+    /* border-bottom: 1px dotted black; */
+    /* padding-left:30px; */
+    /* padding-bottom: 50px; */
+    /* margin-bottom:50px; */
+}
+
+.abox{
+    display:flex;
+    border-bottom: 1px dotted black;
+    flex-direction:column; 
+     width:48%;  
+     /* height:400px;  */
+    /* margin:auto; */
+    margin:20px 0;
+    align-items: flex-start;
+    
+
+}
+.abox h3 {
+    margin-top:20px;
+}
+
+.aboxes{
+    display:flex;
+     /* width:700px;  */
+     /* height:900px;  */
+    justify-content:space-between;
+    flex-wrap: wrap;
+    /* margin: auto; */
+}
+
+.abox button{
+    padding: 5px 10px;
+    border: 2px solid black ;
+    border-radius: 5px;
+    /* text-align: left; */
+    /* margin-right: 210px */
+    margin: 20px 0;
+
+   
+}
+
+.bottom{
+    margin:20px 0;
+}
+.one{
+    width: 12.5%;
+    height: 100px;
+    background: blue;   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.two{
+    width: 12.5%;
+    height: 100px;
+    background: gold;   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.three{
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.four{
+    width: 12.5%;
+    height: 100px;
+    background: coral;   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.five{
+    width: 12.5%;
+    height: 100px;
+    background: crimson;   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.six{
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.seven{
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.eight{
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.nine{
+    width: 12.5%;
+    height: 100px;
+    background: indigo;   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.ten{
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
