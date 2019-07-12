@@ -88,7 +88,7 @@ p {
 
 .middle-content {
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    border-bottom: 1px dashed black; 
 }
 
 .middle-content h2 {
@@ -105,7 +105,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: black;   
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -214,4 +214,100 @@ header nav a {
 
 .bottom{
     margin:20px 180px;
+}
+.one{
+    width: 12.5%;
+    height: 100px;
+    background: blue;   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.two{
+    width: 12.5%;
+    height: 100px;
+    background: gold;   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.three{
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.four{
+    width: 12.5%;
+    height: 100px;
+    background: coral;   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.five{
+    width: 12.5%;
+    height: 100px;
+    background: crimson;   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.six{
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.seven{
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.eight{
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.nine{
+    width: 12.5%;
+    height: 100px;
+    background: indigo;   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}.ten{
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;   
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
