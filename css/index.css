@@ -69,6 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+    margin-top:30px;
 }
 
 .top-content {
@@ -143,4 +144,74 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:20px 100px;
+}
+header nav a {
+    margin-right:40px;
+    text-decoration: none;
+    color:black;
+    font-size: 16px;
+    padding-left:20px
+   
+}
+.logo{
+    margin-bottom:20px;
+    margin-left:20px;
+}
+.lights{
+    margin-left:115px;
+   
+}
+.skyscraper{
+    margin-left:120px;
+}
+.about-page{
+    margin-left:120px;
+    margin-right:80px;
+    border-bottom: 1px dotted black;
+    padding-left:30px;
+    padding-bottom: 50px;
+    margin-bottom:50px;
+}
+
+.abox{
+    display:flex;
+    border-bottom: 1px dotted black;
+    flex-direction:column; 
+     width:300px; 
+     height:400px; 
+    margin:auto;
+    
+
+}
+.abox h3 {
+    margin-top:20px;
+}
+
+.aboxes{
+    display:flex;
+     width:700px; 
+     height:900px; 
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.abox button{
+    padding: 5px 10px;
+    border: 2px solid black ;
+    border-radius: 5px;
+    text-align: left;
+    margin-right: 210px
+
+   
+}
+
+.bottom{
+    margin:20px 180px;
 }
